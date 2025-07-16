@@ -9,7 +9,6 @@ body {
 }
 
 .contenedor {
-    height: 60vh;
     background-color: #2c2d2e;
     color: aliceblue;
 }
@@ -59,7 +58,6 @@ body {
 }
 
 .links {
-    width: 10vw;
     display: flex;
     justify-content: space-between;
 }
