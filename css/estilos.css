@@ -9,8 +9,7 @@ body {
 }
 
 .contenedor {
-    width: 100vw;
-    height: 100vh;
+    height: 60vh;
     background-color: #2c2d2e;
     color: aliceblue;
 }
@@ -60,7 +59,7 @@ body {
 }
 
 .links {
-    width: 20vw;
+    width: 10vw;
     display: flex;
     justify-content: space-between;
 }
@@ -92,30 +91,20 @@ h1 {
     font-size: 3em;
 }
 
-.download-cv {
-    padding: 10px 20px;
-    background-color: coral;
-    border: none;
-    border-radius: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-}
 
-.download-cv:hover {
-    background-color: aliceblue;
-    transition: ease-in 0.2s;
-}
+
 
 .sobre-mi {
+    background-color: #949494;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    width: 80vw;
-    height: 80vh;
+    height: 60vh;
     align-items: center;
 }
 
 .sobre-mi img {
+    margin-left: 25%;
     width: 70%;
     grid-column: 1/5;
     border-radius: 20px;
@@ -147,7 +136,6 @@ h1 {
 }
 
 .proyecto {
-    width: 100vw;
     background-color: #2c2d2e;
     color: aliceblue;
 }
@@ -163,7 +151,7 @@ h1 {
 
 .proyecto .contenedorp {
     width: 80vw;
-    height: 80vh;
+    height: 50vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -203,6 +191,7 @@ h1 {
 }
 
 .habilidades {
+    background-color: #c7c7c7;
     margin: 0 auto;
     width: 100vw;
     height: 50vh;
@@ -302,7 +291,7 @@ h1 {
     align-items: center;
     width: 100vw;
     height: 200px;
-    background-color: coral;
+    background-color: rgb(221, 111, 71);
 }
 
 .contenedorf h2 {
